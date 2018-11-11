@@ -30,7 +30,7 @@ To install [pinocchio](https://github.com/stack-of-tasks/pinocchio) follow the i
 ## TSID for Python 
 To operate it in python environment, we offer python binding module using boost::python and eigenpy
 
-To install eigenpy on Ubuntu, you should install eigenpy:
+To install eigenpy on Ubuntu, 
   git clone https://github.com/stack-of-tasks/eigenpy
 
 For testing TSID in python, you can operate unit test scripts in script folder. 
