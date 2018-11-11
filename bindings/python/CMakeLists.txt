@@ -43,11 +43,11 @@ SET(${PROJECT_NAME}_PYTHON_HEADERS
   tasks/task-com-equality.hpp
   tasks/task-se3-equality.hpp
   tasks/task-joint-posture.hpp
+  utils/container.hpp
   solvers/expose-solvers.hpp
   solvers/solver-HQP-eiquadprog.hpp
   solvers/HQPData.hpp
   solvers/HQPOutput.hpp
-  utils/container.hpp
   formulations/formulation.hpp
   formulations/expose-formulations.hpp
   )
@@ -84,7 +84,7 @@ MAKE_DIRECTORY("${${PROJECT_NAME}_BINARY_DIR}/include/tsid/bindings/python/traje
 MAKE_DIRECTORY("${${PROJECT_NAME}_BINARY_DIR}/include/tsid/bindings/python/tasks")
 MAKE_DIRECTORY("${${PROJECT_NAME}_BINARY_DIR}/include/tsid/bindings/python/solvers")
 MAKE_DIRECTORY("${${PROJECT_NAME}_BINARY_DIR}/include/tsid/bindings/python/formulations")
-
+MAKE_DIRECTORY("${${PROJECT_NAME}_BINARY_DIR}/include/tsid/bindings/python/utils")
 
 SYMLINK_AND_INSTALL_HEADERS("${${PROJECT_NAME}_PYTHON_HEADERS}" "bindings/python")
 

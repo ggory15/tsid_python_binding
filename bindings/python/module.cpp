@@ -14,8 +14,6 @@
 #include <boost/python/tuple.hpp>
 #include <boost/python/to_python_converter.hpp>
 
-#include "tsid/math/fwd.hpp"
-
 namespace bp = boost::python;
 using namespace tsid::python;
 
