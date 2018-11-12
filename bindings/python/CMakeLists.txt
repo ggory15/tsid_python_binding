@@ -118,12 +118,12 @@ INSTALL(TARGETS ${PYWRAP} DESTINATION ${${PYWRAP}_INSTALL_DIR})
 
 # --- INSTALL SCRIPTS 
 SET(PYTHON_FILES
-# __init__.py
+ __init__.py
   )
 
 FOREACH(python ${PYTHON_FILES})
   INSTALL(FILES
-    "${${PROJECT_NAME}_SOURCE_DIR}/bindings/python/scripts/${python}"
+    "${${PROJECT_NAME}_SOURCE_DIR}/bindings/python/${python}"
     DESTINATION ${${PYWRAP}_INSTALL_DIR})
 ENDFOREACH(python)
 
