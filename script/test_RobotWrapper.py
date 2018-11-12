@@ -1,5 +1,5 @@
 import pinocchio as se3
-import libtsid_pywrap as tsid
+import tsid
 import numpy as np
 
 print ""
