@@ -8,7 +8,9 @@ print "Test Contact"
 print ""
 
 tol = 1e-5
-path = '/home/ggory15/ongoing_work/tsid/models/romeo'
+import os
+filename = str(os.path.dirname(os.path.abspath(__file__)))
+path = filename + '/../models/romeo'
 urdf = path + '/urdf/romeo.urdf'
 vector = se3.StdVec_StdString()
 vector.extend(item for item in path)
