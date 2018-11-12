@@ -37,3 +37,9 @@ For testing TSID in python, you can operate unit test scripts in script folder.
 For instance,
 
     ipython script/test_formulation.py
+    
+
+To operate demo with gepetto-viewer
+
+    ipython demo/demo_romeo.py
+
