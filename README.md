@@ -32,6 +32,7 @@ To operate it in python environment, we offer python binding module using boost:
 
 To install eigenpy on Ubuntu, 
   git clone https://github.com/stack-of-tasks/eigenpy
+  or  sudo apt install robotpkg-py27-eigenpy
 
 For testing TSID in python, you can operate unit test scripts in script folder. 
 For instance,
